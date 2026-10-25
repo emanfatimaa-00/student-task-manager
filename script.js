@@ -19,7 +19,7 @@ taskForm.addEventListener("submit", function (event) {
         return;
     }
 
-    let priorityClass = "medium";
+    let priorityClass = "High";
     if (priority === "High") priorityClass = "high";
     if (priority === "Low") priorityClass = "low";
 
